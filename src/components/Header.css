@@ -1,0 +1,35 @@
+.header {
+  display: block !important;
+  margin-top: 3px !important;
+}
+
+
+.addUser {
+  padding-top: 50px;
+}
+
+.inputDiv {
+  width: 30% !important;
+  float: right;
+  margin-right: 255px !important;
+}
+
+.labelDiv {
+  width: 30% !important;
+  margin-left: 255px !important;
+  height: 40px;
+  padding: 10px 0px;
+  float: left;
+  margin: 0px;
+}
+
+.fieldDiv{
+  padding-top: 20px;
+}
+
+.buttonDiv{
+    margin-top: 20px !important;
+    float: left;
+}
+
+
