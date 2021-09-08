@@ -43,7 +43,7 @@ class AddUser extends React.Component {
   render() {
     return(
       <div className="ui main addUser">
-        <h2> Add User </h2>
+        <h3 className="Heading"> Add User </h3>
         <form className="ui form" onSubmit={this.clickAddMethod}>
           <div className="field fieldDiv">
             <label className="labelDiv"> Name </label> 

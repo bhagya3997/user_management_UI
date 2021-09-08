@@ -4,9 +4,13 @@ import {Link} from 'react-router-dom';
 
 const UserList = (props) => {
   console.log('UserList js file--------------',props);
+  const deleteHandler = (id) => {
+    console.log("deleteHandler",id)
+    props.removeUser(id)
+  };
   const renderUser = props.users.map((user) => {
     return(
-      <UserCard user={user}></UserCard>
+      <UserCard user={user} removeUser={deleteHandler} key={user.id}></UserCard>
     );
   });
   return(

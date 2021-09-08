@@ -3,7 +3,6 @@
   margin-top: 3px !important;
 }
 
-
 .addUser {
   padding-top: 50px;
 }
@@ -23,13 +22,11 @@
   margin: 0px;
 }
 
-.fieldDiv{
+.fieldDiv {
   padding-top: 20px;
 }
 
-.buttonDiv{
-    margin-top: 20px !important;
-    float: left;
+.buttonDiv {
+  margin-top: 20px !important;
+  float: left;
 }
-
-
