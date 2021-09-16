@@ -30,3 +30,8 @@
   margin-top: 20px !important;
   float: left;
 }
+
+.react-confirm-alert-button-group > button {
+  background: #1678c2;
+  font-weight: 900;
+}

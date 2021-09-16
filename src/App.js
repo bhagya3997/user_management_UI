@@ -40,7 +40,7 @@ function App() {
             <Route path="/" exact >
               <UserList users={users} removeUser={removeUserHandler}/>
             </Route>
-            <Route path="/add" exact render={(props) => <AddUser {...props} parentCallback = {dataFromAddUser}/>}/>
+            <Route path="/add/:userId" exact render={(props) => <AddUser {...props} parentCallback = {dataFromAddUser}/>}/>
             <Route path="/user/:userId" exact render={ (props) => <UserDetails {...props}/>}/>
           </Switch>
       </Router>
